@@ -1,0 +1,5 @@
+file      count
+data/seqs1.fasta    2
+data/seqs2.fasta    3
+data/seqs.fasta    3
+data/testseqs.fasta    3

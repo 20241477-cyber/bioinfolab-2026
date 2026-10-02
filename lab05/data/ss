@@ -1,0 +1,19 @@
+if [ 길이 >= 500 ]
+then
+    if [ 길이 <= 3000 ]
+    then
+        if [ GC비율 >= 0.4 ]
+        then
+            if [ GC비율 >= 0.6 ]
+            then
+                if [ 이름에_특정단어가_없음 ]
+                then
+                    if [ 서열에 들어있는 N갯수 <5 ]
+                    then
+                        echo "$name"
+                    fi
+                fi
+            fi
+        fi
+    fi
+fi
