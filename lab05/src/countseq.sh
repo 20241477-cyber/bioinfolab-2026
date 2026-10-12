@@ -2,12 +2,12 @@
 # countseq.sh — FASTA 파일의 서열 개수를 출력한다
 # 사용법: countseq.sh <FASTA파일>
  
-#if [ -z "$1" ]
-#then
-#    echo "사용법: $0 <FASTA파일>"
-#    echo "  주어진 FASTA 파일의 서열 개수를 출력합니다."
-#    exit 1
-#fi
+if [ -z "$1" ]
+then
+    echo "사용법: $0 <FASTA파일>"
+    echo "  주어진 FASTA 파일의 서열 개수를 출력합니다."
+    exit 1
+fi
  
 if [ ! -f "$1" ]
 then

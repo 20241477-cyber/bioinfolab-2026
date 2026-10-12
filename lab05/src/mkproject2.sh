@@ -19,3 +19,7 @@ fi
 NAME="$1"
 mkdir "$NAME"
 echo "$NAME 폴더를 만들었습니다"
+
+# 폴더 구조 보여주기
+echo "폴더 구조 : "
+ls -R "$NAME"
