@@ -16,3 +16,4 @@ with open(filename) as f:
  
 for name in lengths:
     print(name, lengths[name])
+    
