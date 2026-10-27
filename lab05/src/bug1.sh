@@ -1,4 +1,4 @@
 #!/usr/bin/bash
  
-DIR=$1
+DIR = $1
 ls $DIR
