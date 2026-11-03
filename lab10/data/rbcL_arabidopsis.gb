@@ -1,68 +1,82 @@
-LOCUS       OK432498                1440 bp    DNA     linear   PLN 03-SEP-2022
-DEFINITION  UNVERIFIED: Arabidopsis thaliana ribulose-1,5-bisphosphate
-            carboxylase/oxygenase large subunit-like (rbcL) gene, partial
-            sequence; chloroplast.
-ACCESSION   OK432498
-VERSION     OK432498.1
-KEYWORDS    UNVERIFIED.
+LOCUS       KU739560                1408 bp    DNA     linear   PLN 04-APR-2016
+DEFINITION  Arabidopsis thaliana voucher WIS:J.C. Hall s.n.
+            ribulose-1,5-bisphosphate carboxylase/oxygenase large subunit
+            (rbcL) gene, partial cds; chloroplast.
+ACCESSION   KU739560
+VERSION     KU739560.1
+KEYWORDS    .
 SOURCE      chloroplast Arabidopsis thaliana (thale cress)
   ORGANISM  Arabidopsis thaliana
             Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
             Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
             Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
             Camelineae; Arabidopsis.
-REFERENCE   1  (bases 1 to 1440)
-  AUTHORS   Chattopadhyay,P.
-  TITLE     Sequence of rbcL of At
-  JOURNAL   Unpublished
-REFERENCE   2  (bases 1 to 1440)
-  AUTHORS   Chattopadhyay,P.
+REFERENCE   1  (bases 1 to 1408)
+  AUTHORS   Cardinal-McTeague,W.M., Sytsma,K.J. and Hall,J.C.
+  TITLE     Biogeography and diversification of Brassicales: A 103million year
+            tale
+  JOURNAL   Mol. Phylogenet. Evol. 99, 204-224 (2016)
+   PUBMED   26993763
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1408)
+  AUTHORS   Cardinal-McTeague,W.M., Sytsma,K.J. and Hall,J.C.
   TITLE     Direct Submission
-  JOURNAL   Submitted (07-OCT-2021) Department of Botany, MUC Women's College,
-            Burdwan, BC Road, Burdwan, West Bengal, Burdwan, Birbhum, West
-            Bengal 713104, India
-COMMENT     GenBank staff is unable to verify sequence and/or annotation
-            provided by the submitter.
-            
-            ##Assembly-Data-START##
+  JOURNAL   Submitted (19-FEB-2016) Biological Sciences, University of Alberta,
+            CW 405 Biological Sciences Building, Edmonton, Alberta T6G 2E9,
+            Canada
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Sequencher v. 4.8
             Sequencing Technology :: Sanger dideoxy sequencing
             ##Assembly-Data-END##
 FEATURES             Location/Qualifiers
-     source          1..1440
+     source          1..1408
                      /organism="Arabidopsis thaliana"
                      /organelle="plastid:chloroplast"
                      /mol_type="genomic DNA"
+                     /specimen_voucher="WIS:J.C. Hall s.n."
                      /db_xref="taxon:3702"
-     gene            <1..>1440
+     gene            <1..>1408
                      /gene="rbcL"
-     misc_feature    <1..>1440
+     CDS             <1..>1408
                      /gene="rbcL"
-                     /note="similar to ribulose-1,5-bisphosphate
-                     carboxylase/oxygenase large subunit"
+                     /codon_start=2
+                     /transl_table=11
+                     /product="ribulose-1,5-bisphosphate carboxylase/oxygenase
+                     large subunit"
+                     /protein_id="AMR44347.1"
+                     /translation="KASVGFKAGVKEYKLTYYTPEYETKDTDILAAFRVTPQPGVPPE
+                     EAGAAVAAESSTGTWTTVWTDGLTSLDRYKGRCYHIEPVPGEETQFIAYVAYPLDLFE
+                     EGSVTNMFTSIVGNVFGFKALAALRLEDLRIPPAYTKTFQGPPHGIQVERDKLNKYGR
+                     PLLGCTIKPKLGLSAKNYGRAVYECLRGGLDFTKDDENVNSQPFMRWRDRFLFCAEAI
+                     YKSQAETGEIKGHYLNATAGTCEEMIKRAVFARELGVPIVMHDYLTGGFTANTSLSHY
+                     CRDNGLLLHIHRAMHAVIDRQKNHGMHFRVLAKALRLSGGDHIHAGTVVGKLEGDRES
+                     TLGFVDLLRDDYVEKDRSRGIFFTQDWVSLPGVLPVASGGIHVWHMPALTEIFGDDSV
+                     LQFGGGTLGHPWGNAPGAVANRVALEACVQARNEGRDLAVEGNEIIREACKWSPELAA
+                     ACEVWKEITFNFPTIDKLD"
 ORIGIN      
-        1 atgtcaccac aaacagagac taaagcaagt gttgggttca aagctggtgt taaagagtat
-       61 aaattgactt actatactcc tgaatatgaa accaaggata ctgatatctt ggcagcattc
-      121 cgagtaactc ctcaacctgg agttccacct gaagaagcag gggctgcggt agctgctgaa
-      181 tcttctactg gtacatggac aactgtgtgg accgatgggc ttaccagcct tgatcgttac
-      241 aaaggacgat gctaccacat cgagcccgtt ccaggagaag aaactcaatt tattgcgtat
-      301 gtagcttatc ccttagacct ttttgaagaa ggttcggtta ctaacatgtt tacctcgatt
-      361 gtgggtaatg tatttgggtt caaagccctg gctgctctac gtctagagga tctgcgaatc
-      421 cctcctgctt atactaaaac tttccaagga ccacctcatg gtatccaagt tgaaagagat
-      481 aaattgaaca agtatggacg tcccctatta ggatgtacta ttaaaccaaa attggggtta
-      541 tccgcgaaaa actatggtag agcagtttat gaatgtctac gtggtggact tgattttacc
-      601 aaagatgatg agaatgtgaa ctcccaacca tttatgcgtt ggagagaccg tttcttattt
-      661 tgtgccgaag ctatttataa atcacaggct gaaacaggtg aaatcaaagg gcattatttg
-      721 aatgctactg cgggtacatg cgaagaaatg atcaaaagag ctgtatttgc cagagaattg
-      781 ggagttccta tcgtaatgca tgactactta acagggggat tcaccgcaaa tactagtttg
-      841 tctcattatt gccgagataa tggcctactt cttcacatcc accgtgcaat gcacgctgtt
-      901 attgatagac agaagaatca tggtatgcac ttccgtgtac tagctaaagc tttacgtcta
-      961 tctggtggag atcatattca cgcgggtaca gtagtaggta aacttgaagg agacagggag
-     1021 tcaactttgg gctttgttga tttactgcgc gatgattatg ttgaaaaaga tcgaagccgc
-     1081 ggtatctttt tcactcaaga ttgggtctca ctacctggtg ttctgcctgt ggcttcaggg
-     1141 ggtattcacg tttggcatat gcctgctttg accgagatct ttggagatga ttctgtacta
-     1201 caattcggtg gaggaacttt aggccaccct tggggaaatg caccgggtgc cgtagccaac
-     1261 cgagtagctc tggaagcatg tgtacaagct cgtaatgagg gacgtgatct tgcagtcgag
-     1321 ggtaatgaaa ttatccgtga agcttgcaaa tggagtcctg aactagctgc tgcttgtgaa
-     1381 gtatggaaag agatcacatt taacttccca accatcgata aattagatgg ccaagagtag
+        1 taaagcaagt gttgggttca aagctggtgt taaagagtat aaattgactt actatactcc
+       61 tgaatatgaa accaaggata ctgatatctt ggcagcattc cgagtaactc ctcaacctgg
+      121 agttccacct gaagaagcag gggctgcggt agctgctgaa tcttctactg gtacatggac
+      181 aactgtgtgg accgatgggc ttaccagcct tgatcgttac aaaggacgat gctaccacat
+      241 cgagcccgtt ccaggagaag aaactcaatt tattgcgtat gtagcttatc ccttagacct
+      301 ttttgaagaa ggttcggtta ctaacatgtt tacctcgatt gtgggtaatg tatttgggtt
+      361 caaagccctg gctgctctac gtctagagga tctgcgaatc cctcctgctt atactaaaac
+      421 tttccaagga ccacctcatg gtatccaagt tgaaagagat aaattgaaca agtatggacg
+      481 tcccctatta ggatgtacta ttaaaccaaa attggggtta tccgctaaaa actatggtag
+      541 agcagtttat gaatgtctac gtggtggact tgattttacc aaagatgatg agaatgtgaa
+      601 ctcccaacca tttatgcgtt ggagagaccg tttcttattt tgtgccgaag ctatttataa
+      661 atcacaggct gaaacaggtg aaatcaaagg acattatttg aatgctactg cgggtacatg
+      721 cgaagaaatg atcaaaagag ctgtatttgc cagagaattg ggagttccta tcgtaatgca
+      781 tgactactta acagggggat tcactgcaaa tactagtttg tctcattatt gccgagataa
+      841 tggcctactt cttcacatcc accgtgcaat gcacgctgtt attgatagac agaagaatca
+      901 tggtatgcac ttccgtgtac tagctaaagc tttacgtcta tctggtggag atcatattca
+      961 cgcgggtaca gtagtaggta aacttgaagg agacagggag tcaactttgg gctttgttga
+     1021 tttactgcgc gatgattatg ttgaaaaaga tcgaagccgc ggtatctttt tcactcaaga
+     1081 ttgggtctca ctaccaggtg ttctgcctgt ggcttcaggg ggtattcacg tttggcatat
+     1141 gcctgctttg accgagatct ttggagatga ttctgtacta caattcggtg gaggaacttt
+     1201 aggccaccct tggggaaatg caccgggtgc cgtagccaac cgagtagctc tggaagcatg
+     1261 tgtacaagct cgtaatgagg gacgtgatct tgcagtcgag ggtaatgaaa ttatccgtga
+     1321 agcttgcaaa tggagtcctg aactagctgc tgcttgtgaa gtatggaaag agatcacatt
+     1381 taacttccca accatcgata aattagat
 //
 
