@@ -1,0 +1,8 @@
+file	version	organism	cds_location	codon_start	same
+rbcL_arabidopsis.gb	KU739560.1	Arabidopsis thaliana	[<0:>1408](+)	2	True
+rbcL_fern.gb	MW620303.1	Adiantum capillus-veneris	[<0:>1308](+)	1	True
+rbcL_ginkgo.gb	KF221173.1	Ginkgo biloba	[<0:>1317](+)	1	True
+rbcL_liverwort.gb	LC536762.1	Marchantia polymorpha subsp. ruderalis	[<0:1399](+)	2	True
+rbcL_maize.gb	Z11973.1	Zea mays	[0:1431](+)	1	True
+rbcL_pine.gb	JQ512595.1	Pinus thunbergii	[0:1428](+)	1	True
+rbcL_rice.gb	L24073.1	Oryza sativa	[34:1240](+)	1	True

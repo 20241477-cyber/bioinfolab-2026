@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN"
+"https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>69</Count><RetMax>1</RetMax><RetStart>0</RetStart><IdList>
+<Id>3062771077</Id>
+</IdList><TranslationSet><Translation>     <From>Zea mays[Organism]</From>     <To>"Zea mays"[Organism]</To>    </Translation></TranslationSet><TranslationStack>   <TermSet>    <Term>rbcL[Gene]</Term>    <Field>Gene</Field>    <Count>406633</Count>    <Explode>N</Explode>   </TermSet>   <TermSet>    <Term>"Zea mays"[Organism]</Term>    <Field>Organism</Field>    <Count>4890375</Count>    <Explode>Y</Explode>   </TermSet>   <OP>AND</OP>  </TranslationStack><QueryTranslation>rbcL[Gene] AND "Zea mays"[Organism]</QueryTranslation></eSearchResult>
